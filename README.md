@@ -14,11 +14,11 @@ This project is a simple *vibe coding* one based on Xiaomi MIMO V2.5-Pro.
 
 - **Heuristic Mode** — BFS shortest-path. The snake finds the optimal path to each apple, dynamically avoiding its own body. Fast but may get stuck when no path exists. Code designed based on this mode would not be able to be accepted, since it is easy to construct scenarios when snakes are restricted in a region surrounded by its own body.
 
-  ![image1](image1.png)
+  ![image1](img1.png)
 
 - **Hamilton Mode** — Follows a precomputed 100-step Hamiltonian cycle. The snake traverses the grid in a fixed order, eating apples as it encounters them. Guaranteed to always succeed with no deadlocks.
 
-  ![image2](image2.png)
+  ![image2](img2.png)
 
 - Interactive setup: click to choose the starting position, then place up to 99 apples.
 
